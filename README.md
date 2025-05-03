@@ -113,6 +113,7 @@ maxexpiry = 86400
 | ```max-duration-size = 4294967296``` | Size of file before max-duration-time is used to determine expiry max time. (Default is 4GB)
 | ```disable-access-key = true``` | Disables access key usage. (Default is false.)
 | ```default-random-filename = true``` | Makes it so the random filename is not default if set false. (Default is true.)
+| ```strict-site-url = true``` | Enforces strict site URL format for CSRF protection. (Default is true.)
 
 
 #### Cleaning up expired files
